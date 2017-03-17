@@ -430,10 +430,149 @@ a {
 	background-color: white;
 }
 
+.partTwoPhoto1, .partTwoPhoto2, .partTwoTextBox{
+	float: left;
+	width: 330px;
+}
+
+.partTwoPhoto1{
+	background-image: url("../images/box1_img.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 330px;
+	height: 226px;
+	margin-right: 20px;
+	border: 1px solid #d2d1d9;
+	position: relative;
+}
+
+.rectanglePhoto1{
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 330px;
+	height: 60px;
+	position: absolute;
+	top: 150px;
+}
+
+.rectanglePhoto1 p{
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.rectanglePhoto1 p::after{
+	content: "";
+	width: 150px;
+	height: 8px;
+	background-color: #27c7ab;
+	display: block;
+	margin-top: 5px;
+	margin-left: -4px;
+}
+
+.partTwoPhoto2{
+	background-image: url("../images/box2_img.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 330px;
+	height: 226px;
+	margin-right: 20px;
+	border: 1px solid #d2d1d9;
+	position: relative;
+}
+
+.rectanglePhoto2{
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 330px;
+	height: 60px;
+	position: absolute;
+	top: 150px;
+}
+
+.rectanglePhoto2 p{
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.rectanglePhoto2 p::after{
+	content: "";
+	width: 150px;
+	height: 8px;
+	background-color: #27c7ab;
+	display: block;
+	margin-top: 5px;
+}
+
+.partTwoTextBox{
+	background-color: white;
+	width: 330px;
+	height: 250px;
+	border: 1px solid #d2d1d9;
+}
+
+.partTwoTextBox p{
+	width: 290px;
+}
+
+.partTwoTextBox p:first-child{
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.partTwoTextBox p:first-child::after{
+	content: "";
+	width: 150px;
+	height: 8px;
+	background-color: #27c7ab;
+	display: block;
+	margin-top: 5px;
+}
+
+.partTwoTextBox p:nth-child(2){
+	font-size: 14px;
+	margin-top: 10px;
+	margin-left: 20px;
+	color: #595a5a;
+	line-height: 20px;
+
+}
+
+.partTwoTextBox p:last-child{
+	font-size: 14px;
+	margin-top: 20px;
+	margin-left: 20px;
+	color: #595a5a;
+	line-height: 20px;
+}
+
 .partThree{
 	height: 725px;
 	width: 100%;
 	background-color: #f1f1f1;
+}
+
+.partThree p{
+	text-transform: uppercase;
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: 500;
+	color: #595a5a;
+}
+
+.partThree p::after{
+	content: "";
+	width: 300px;
+	height: 8px;
+	background-color: #27c7ab;
+	display: block;
+	margin-top: 5px;
 }
 
 .partFour{
@@ -442,8 +581,40 @@ a {
 	background-color: white;
 }
 
+.paymentPlanBasic{
+	width: 330px;
+	height: 540px;
+	float: left;
+	border: 1px dashed black;
+	margin-top: 40px;
+	margin-right: 20px;
+}
+
+.paymentPlanStandard{
+	width: 330px;
+	height: 540px;
+	float: left;
+	border: 1px dashed black;
+	margin-top: 40px;
+	margin-right: 20px;
+}
+
+.paymentPlanAdvance{
+	width: 330px;
+	height: 540px;
+	float: left;
+	border: 1px dashed black;
+	margin-top: 40px;
+
+}
+
+
 footer{
 	height: 106px;
 	width: 100%;
 	background-color: white;
+}
+
+.boldOnLogoBottom {
+		font-weight: bold;
 }
