@@ -325,6 +325,7 @@ header{
 	font-style: normal;
 	font-weight: normal;
 	margin-top: 5px;
+	letter-spacing: 1px;
 }
 
 .boldOnLogo, .colorOnLogo{
@@ -344,6 +345,7 @@ header{
 	font-style: normal;
 	font-weight: 500;
 	margin-right: 40px;
+	letter-spacing: 1px;
 }
 
 .menu ul li:last-child{
@@ -406,6 +408,7 @@ a {
 	font-size: 14px;
 	line-height: 20px;
 	margin-top: 50px;
+	letter-spacing: 1px;
 }
 
 .buttonSeeMore{
@@ -730,6 +733,31 @@ footer{
 	height: 106px;
 	width: 100%;
 	background-color: white;
+	color: #bfbec0;
+}
+.copyright{
+	font-size: 14px;
+	float: left;
+	margin-right: 40px;
+	margin-top: 60px;
+	letter-spacing: 1px;
+}
+
+.socialMedia{
+	float: left;
+	margin-right: 20px;
+	margin-left: 300px;
+	margin-top: 40px;
+}
+
+.socialMedia img{
+	margin-right: 6px;
+}
+
+.footerLogo{
+	float: right;
+	margin-top: 60px;
+	letter-spacing: 2px;
 }
 
 .boldOnLogoBottom {
