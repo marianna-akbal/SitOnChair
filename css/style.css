@@ -368,12 +368,60 @@ a {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#cfcdcf', GradientType=0 );
 }
 
-.sliderText{
-	display: block;
-}
 
 .leftSliderArrow, .photoOfChair, .sliderText, .rightSliderArrow{
 	float: left;
+}
+
+.leftSliderArrow, .rightSliderArrow{
+		color: #27c7ab;
+		font-size: 80px;
+		font-weight: 200;
+		width: 41px;
+		margin-top: 200px;
+}
+
+.photoOfChair{
+	background-image: url("../images/black_chair.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 486px;
+	height: 500px;
+}
+
+.sliderText{
+	width: 486px;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.sliderHeadline{
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: 500;
+}
+
+.sliderTextMore{
+	font-size: 14px;
+	line-height: 20px;
+	margin-top: 50px;
+}
+
+.buttonSeeMore{
+	height: 50px;
+	width: 250px;
+	border-radius: 15px;
+	background-color: #27c7ab;
+	margin-top: 50px;
+	display: inline-block;
+}
+
+.buttonSeeMore p{
+	text-transform: uppercase;
+	color: white;
+	font-size: 20px;
+	margin-top: 15px;
 }
 
 .partTwo{
