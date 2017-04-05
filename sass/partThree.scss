@@ -1,0 +1,339 @@
+
+
+.partThree{
+	height: 725px;
+	width: 100%;
+	background-color: #f1f1f1;
+}
+
+#priceList{
+	text-transform: uppercase;
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: 500;
+	color: #595a5a;
+}
+
+#priceList::after{
+	content: "";
+	width: 310px;
+	height: 8px;
+	background-color: #27c7ab;
+	display: block;
+	margin-top: 5px;
+}
+
+
+.paymentPlanBasic{
+	width: 330px;
+	height: 540px;
+	float: left;
+	margin-top: 40px;
+	margin-right: 20px;
+	position: relative;
+}
+
+.paymentPlanBasicBox{
+	width: 328px;
+	height: 540px;
+	border: 1px solid lightgray;
+	position: absolute;
+}
+
+.paymentPlanBasicBox > p{
+	font-size: 23px;
+	margin-top: 60px;
+	margin-left: 100px;
+	color: #27c7ab;
+}
+
+.paymentPlanElipse1{
+	border: 1px solid lightgray;
+	background-color: white;
+	border-radius: 100%;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: -24px;
+	left: 140px;
+}
+
+
+.paymentPlanElipse1::after{
+	background-color: lightgray;
+	border-radius: 100%;
+	width: 30px;
+	height: 30px;
+	z-index: 2;
+	content: "";
+	display: block;
+	top: 15px;
+	left: 15px;
+	position: absolute;
+}
+
+.paymentPlanElipse2{
+	border: 1px solid lightgray;
+	background-color: white;
+	border-radius: 100%;
+	width: 140px;
+	height: 140px;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}
+
+
+.textInElipse{
+margin-top: 30px;
+margin-left: 5px;
+}
+
+.boldPrice{
+	font-size: 50px;
+	color: #c2c2c2;
+	font-weight: bold;
+	margin-left: 30px;
+}
+
+.boldPrice .upperPrice{
+	font-size: 36%;
+	position: relative;
+	top: -1.5em;
+}
+
+.paymentPlanElipse2 div:nth-child(2) {
+	font-size: 14px;
+	font-weight: 600;
+	color: #c2c2c2;
+	margin-left: 28px;
+	margin-top: 7px;
+	letter-spacing: 2px;
+}
+
+.boxRectangle1{
+	position: absolute;
+	background-color: #e4e4e4;
+	width: 328px;
+	height: 50px;
+	left: 1px;
+	top: 270px;
+}
+
+.boxRectangle1 p{
+	position: absolute;
+	color: gray;
+	font-size: 25px;
+	left: 35px;
+	top: 12px;
+}
+
+.boxRectangle2{
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 328px;
+	height: 50px;
+	left: 1px;
+	top: 320px;
+}
+
+.boxRectangle2 p{
+	position: absolute;
+	color: gray;
+	font-size: 25px;
+	left: 115px;
+	top: 12px;
+}
+
+.paymentPlanButton1 {
+	position: absolute;
+	background-color: #27c7ab;
+	border-radius: 10px;
+	width: 128px;
+	height: 40px;
+	left: 100px;
+	top: 480px;
+}
+
+.paymentPlanButton1 p{
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	left: 33px;
+	top: 9px;
+}
+
+.paymentPlanStandard{
+	position: absolute;
+	width: 330px;
+	height: 540px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 350px;
+}
+
+.paymentPlanStandardBox{
+	width: 328px;
+	height: 540px;
+	border: 1px solid lightgray;
+	position: absolute;
+	background-color: #27c7ab;
+}
+
+.paymentPlanStandardBox > p{
+	font-size: 23px;
+	margin-top: 60px;
+	margin-left: 80px;
+	color: white;
+}
+
+.boldPrice2{
+	font-size: 50px;
+	color: #27c7ab;
+	font-weight: bold;
+	margin-left: 30px;
+}
+
+.boldPrice2 .upperPrice2{
+	font-size: 36%;
+	position: relative;
+	top: -1.5em;
+}
+
+.paymentPlanElipse3{
+	border: 1px solid lightgray;
+	background-color: white;
+	color: #27c7ab;
+	border-radius: 100%;
+	width: 140px;
+	height: 140px;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}
+
+.paymentPlanElipse3 div:nth-child(2) {
+	font-size: 14px;
+	font-weight: 600;
+	/*color: #c2c2c2;*/
+	margin-left: 28px;
+	margin-top: 7px;
+	letter-spacing: 2px;
+}
+
+.paymentPlanButton2 {
+	position: absolute;
+	background-color: white;
+	border-radius: 10px;
+	width: 128px;
+	height: 40px;
+	left: 100px;
+	top: 480px;
+}
+
+.paymentPlanButton2 p{
+	color: #27c7ab;
+	font-size: 20px;
+	position: absolute;
+	left: 33px;
+	top: 9px;
+}
+
+.boxRectangle3{
+	position: absolute;
+	background-color: white;
+	width: 328px;
+	height: 50px;
+	left: 1px;
+	top: 270px;
+}
+
+.boxRectangle3 p{
+	position: absolute;
+	color: gray;
+	font-size: 25px;
+	left: 35px;
+	top: 12px;
+}
+
+.boxRectangle4{
+	position: absolute;
+	background-color: #f1f1f1;
+	width: 328px;
+	height: 50px;
+	left: 1px;
+	top: 320px;
+}
+
+.boxRectangle4 p{
+	position: absolute;
+	color: gray;
+	font-size: 25px;
+	left: 116px;
+	top: 12px;
+}
+
+
+.boxRectangle5{
+	position: absolute;
+	background-color: white;
+	width: 328px;
+	height: 50px;
+	left: 1px;
+	top: 370px;
+}
+
+.boxRectangle5 p{
+	position: absolute;
+	color: gray;
+	font-size: 25px;
+	left: 70px;
+	top: 12px;
+}
+
+.paymentPlanAdvance{
+	width: 330px;
+	height: 540px;
+	float: left;
+	border: 1px solid lightgray;
+	margin-top: 40px;
+	margin-left: 700px;
+	position: absolute;
+}
+
+.paymentPlanAdvanceBox > p{
+	font-size: 23px;
+	margin-top: 60px;
+	margin-left: 100px;
+	color: #27c7ab;
+}
+
+.boldPrice3{
+	font-size: 50px;
+	color: #c2c2c2;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.boldPrice3 .upperPrice3 {
+	font-size: 36%;
+	position: relative;
+	top: -1.5em;
+}
+
+.boxRectangle6{
+	position: absolute;
+	background-color: #e4e4e4;
+	width: 328px;
+	height: 50px;
+	left: 1px;
+	top: 420px;
+}
+
+.boxRectangle6 p{
+	position: absolute;
+	color: gray;
+	font-size: 25px;
+	left: 49px;
+	top: 12px;
+}

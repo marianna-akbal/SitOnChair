@@ -1,0 +1,66 @@
+header{
+	background-color: black;
+	height: 40px;
+}
+
+.logo{
+	float: left;
+	color: white;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	margin-top: 5px;
+	letter-spacing: 1px;
+}
+
+.boldOnLogo, .colorOnLogo{
+	font-weight: bold;
+	color: #27c7ab;
+}
+
+.menu{
+	float: right;
+}
+
+.menu ul li{
+	display: inline;
+	color: white;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	margin-right: 40px;
+	letter-spacing: 1px;
+}
+
+
+.menu ul li:last-child{
+	margin-right: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.secondMenu{
+	display: none;
+}
+
+.menuBlackBox{
+	background-color: black;
+	margin-top: 30px;
+	position: absolute;
+	left: -30px;
+	display: none;
+	z-index: 1;
+
+		.arrowMenuBlackBox{
+		width: 0;
+		height: 0;
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+		margin-top: -10px;
+		border-bottom: 10px solid black;
+	}
+}
