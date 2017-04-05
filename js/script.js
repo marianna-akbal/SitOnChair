@@ -18,13 +18,15 @@ document.addEventListener("DOMContentLoaded", function() {
     //     secondMenu.classList.add('hidden');
     // });
 
-    var firstMenuElement = document.querySelector('ul li');
-
-    firstMenuElement.addEventListener('onmouseover', function() {
-      document.querySelector('.secondMenu').style.display="block";
-    });
-
-
+    // var firstMenuElement = document.querySelector('ul li');
+    //
+    // firstMenuElement.addEventListener('mouseover', function() {
+    // document.querySelector('.secondMenu').style.display="block";
+    // });
+    //
+    // firstMenuElement.addEventListener('mouseout', function() {
+    // document.querySelector('.secondMenu').style.display="none";
+    // });
 
 
 

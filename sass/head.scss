@@ -20,6 +20,7 @@ header{
 
 .menu{
 	float: right;
+
 }
 
 .menu ul li{
@@ -31,6 +32,12 @@ header{
 	font-weight: 500;
 	margin-right: 40px;
 	letter-spacing: 1px;
+
+	// .secondMenu{
+	// 	li{
+	// 		display: inline-block;
+	// 	}
+	// }
 }
 
 
@@ -43,9 +50,6 @@ a {
 	color: white;
 }
 
-.secondMenu{
-	display: none;
-}
 
 .menuBlackBox{
 	background-color: black;
