@@ -41,6 +41,7 @@ header{
 		background-color: black;
 		padding: 5px;
 
+
 		&:before{
 			width: 0;
 			height: 0;
@@ -56,9 +57,14 @@ header{
 			position: absolute;
 			content: " ";
 		}
-		
+
 		li{
 			display: block;
+			text-transform: none;
+			font-size: 12px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			font-weight: lighter;
 		}
 	}
 }
