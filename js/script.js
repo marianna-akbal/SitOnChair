@@ -9,17 +9,22 @@ document.addEventListener("DOMContentLoaded", function() {
             var secondMenu = this.querySelector(".secondMenu");
             if(secondMenu != undefined){
                 secondMenu.classList.remove('hidden');
-            }
-        });
 
-        item.addEventListener("mouseout", function(){
-            var secondMenu = this.querySelector(".secondMenu");
-            if(secondMenu != undefined){
-                secondMenu.classList.add('hidden');
+                secondMenu.addEventListener("mouseout", function(){
+                  this.classList.add("hidden");
+                })
+
+                var secondLevelMenuItems = Array.from(this.querySelectorAll("li"));
+
+                secondLevelMenuItems.forEach(function(secondItem){
+                  secondItem.addEventListener("click", function(){
+                    this.parentNode.classList.add("hidden");
+                  });
+                });
             }
         });
     });
-    
+
     /* -------------- END OF dropdown menu Firma ------------------- */
 
 
