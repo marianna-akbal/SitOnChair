@@ -1,35 +1,25 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-
-
   /* -------------- dropdown menu Firma ------------------- */
 
-    // var firstMenuElement = document.querySelector('ul li');
-    //
-    // firstMenuElement.addEventListener('mouseover', function() {
-    //     console.log("mouse over");
-    //     var secondMenu = document.querySelector('.secondMenu');
-    //     secondMenu.classList.remove('hidden');
-    // });
-    //
-    // firstMenuElement.addEventListener('mouseout', function() {
-    //     console.log("mouse leave");
-    //     var secondMenu = document.querySelector('.secondMenu');
-    //     secondMenu.classList.add('hidden');
-    // });
+    var topLevelMenuItems = Array.from(document.querySelectorAll('.menu ul li'));
 
-    // var firstMenuElement = document.querySelector('ul li');
-    //
-    // firstMenuElement.addEventListener('mouseover', function() {
-    // document.querySelector('.secondMenu').style.display="block";
-    // });
-    //
-    // firstMenuElement.addEventListener('mouseout', function() {
-    // document.querySelector('.secondMenu').style.display="none";
-    // });
+    topLevelMenuItems.forEach(function(item){
+        item.addEventListener("mouseover", function(){
+            var secondMenu = this.querySelector(".secondMenu");
+            if(secondMenu != undefined){
+                secondMenu.classList.remove('hidden');
+            }
+        });
 
-
-
+        item.addEventListener("mouseout", function(){
+            var secondMenu = this.querySelector(".secondMenu");
+            if(secondMenu != undefined){
+                secondMenu.classList.add('hidden');
+            }
+        });
+    });
+    
     /* -------------- END OF dropdown menu Firma ------------------- */
 
 
