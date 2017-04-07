@@ -107,23 +107,51 @@ document.addEventListener("DOMContentLoaded", function() {
         var title = document.querySelector('.title');
         var color = document.querySelector('.color');
         var pattern = document.querySelector('.pattern');
-        var transport = document.querySelector('.transport');
+        var colorValue = document.querySelector('.colorValue');
+        var patternValue = document.querySelector('.patternValue');
+        var chairValue = document.querySelector('.titleValue');
+
 
         listItems.forEach(function(item){
           item.addEventListener('click', function(){
             if(this.parentNode.classList.contains('type')) {
               title.innerHTML = 'Chair ' + this.innerHTML;
+              chairValue.innerHTML = this.dataset['chairPrice'];
             } if (this.parentNode.classList.contains('chairColor')){
               color.innerHTML = this.innerHTML;
+              colorValue.innerHTML = this.dataset['colorPrice'];
             } if (this.parentNode.classList.contains('chairPattern')){
               pattern.innerHTML = this.innerHTML;
+              patternValue.innerHTML = this.dataset['patternPrice'];
             }
 
-
-
-
           })
-        })
+        });
+
+        var checkbox = document.querySelector('#transport');
+        var transport = document.querySelector('.transport');
+        var transportValue = document.querySelector('.transportValue')
+
+        checkbox.addEventListener('click', function(){
+          console.log(this.checked);
+          if(this.checked) {
+            transport.innerHTML = "Transport";
+            transportValue.innerHTML = this.dataset['transportPrice'];
+          }
+        });
+
+
+        var sum = document.querySelector('.sum');
+
+        var totalPrice = 0;
+
+        
+
+
+
+
+
+
 
 
 });
