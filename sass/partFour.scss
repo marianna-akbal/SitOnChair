@@ -1,0 +1,159 @@
+
+
+.partFour{
+	height: 540px;
+	width: 100%;
+	background-color: white;
+}
+
+.partFour .container > p{
+	text-transform: uppercase;
+	margin-top: 20px;
+	font-size: 23px;
+	font-weight: 500;
+	color: #595a5a;
+}
+
+.partFour .container > p::after{
+	content: "";
+	width: 330px;
+	height: 8px;
+	background-color: #27c7ab;
+	display: block;
+	margin-top: 5px;
+}
+
+.messageForm{
+	float: left;
+	width: 600px;
+	margin-top: 30px;
+}
+
+input[type=text] {
+		width: 620px;
+		height: 50px;
+    border: 1px solid #27c7ab;
+		padding: 10px;
+		font-size: 30px;
+		color: #bfbec0;
+		font-weight: 100;
+}
+
+input[type=email] {
+		width: 620px;
+		height: 50px;
+    border: 1px solid #27c7ab;
+		margin-top: 30px;
+		padding: 10px;
+		font-size: 30px;
+		color: #bfbec0;
+		font-weight: 100;
+}
+
+textarea{
+	width: 620px;
+	height: 200px;
+	border: 1px solid #27c7ab;
+	margin-top: 30px;
+	resize: none;
+	font-size: 30px;
+	color: #bfbec0;
+	font-weight: 100;
+	padding: 10px;
+}
+
+.sendSection{
+	float: right;
+	width: 368px;
+}
+
+.photoOfRedChair{
+	background-image: url("../images/red_chair.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 330px;
+	height: 226px;
+	margin-right: 20px;
+	position: relative;
+}
+
+.agreement{
+	margin-top: 30px;
+}
+
+.agreemetThick{
+	background-image: url("../images/form_ok.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #27c7ab;
+	float: left;
+}
+
+.agreemetText{
+	float: left;
+	width: 280px;
+	margin-left: 20px;
+	margin-top: 8px;
+	font-size: 19px;
+	line-height: 22px;
+	color: #bfbec0;
+}
+
+.buttonSend{
+	height: 80px;
+	width: 350px;
+	border-radius: 12px;
+	background-color: #27c7ab;
+	margin-top: 70px;
+	display: inline-block;
+
+}
+
+.buttonSend p{
+	text-transform: uppercase;
+	color: white;
+	font-size: 33px;
+	font-weight: 600;
+	margin-top: 25px;
+	margin-left: 110px;
+}
+
+
+footer{
+	height: 106px;
+	width: 100%;
+	background-color: white;
+	color: #bfbec0;
+}
+.copyright{
+	font-size: 14px;
+	float: left;
+	margin-right: 40px;
+	margin-top: 60px;
+	letter-spacing: 1px;
+}
+
+.socialMedia{
+	float: left;
+	margin-right: 20px;
+	margin-left: 300px;
+	margin-top: 40px;
+}
+
+.socialMedia img{
+	margin-right: 6px;
+}
+
+.footerLogo{
+	float: right;
+	margin-top: 60px;
+	letter-spacing: 2px;
+}
+
+.boldOnLogoBottom {
+		font-weight: bold;
+}

@@ -89,5 +89,22 @@ document.addEventListener("DOMContentLoaded", function() {
 
     /* -------------- END OF slider------------------- */
 
+    /* --------------dropdown menu - wybor krzesla ------------------- */
+
+        var dropdownMenu = Array.from(document.querySelectorAll('.list_arrow'));
+
+        dropdownMenu.forEach(function(item){
+          item.addEventListener('click', function(){
+              if( this.nextElementSibling.style.display === 'none' ) {
+                this.nextElementSibling.style.display = 'block';
+              } else {
+                this.nextElementSibling.style.display = 'none';
+              }
+          })
+        });
+
+
+
+
 
 });
