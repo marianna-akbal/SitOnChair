@@ -103,8 +103,27 @@ document.addEventListener("DOMContentLoaded", function() {
           })
         });
 
+        var listItems = Array.from(document.querySelectorAll('.list_panel li'));
+        var title = document.querySelector('.title');
+        var color = document.querySelector('.color');
+        var pattern = document.querySelector('.pattern');
+        var transport = document.querySelector('.transport');
+
+        listItems.forEach(function(item){
+          item.addEventListener('click', function(){
+            if(this.parentNode.classList.contains('type')) {
+              title.innerHTML = 'Chair ' + this.innerHTML;
+            } if (this.parentNode.classList.contains('chairColor')){
+              color.innerHTML = this.innerHTML;
+            } if (this.parentNode.classList.contains('chairPattern')){
+              pattern.innerHTML = this.innerHTML;
+            }
 
 
+
+
+          })
+        })
 
 
 });
