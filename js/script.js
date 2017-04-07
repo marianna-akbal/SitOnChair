@@ -125,6 +125,8 @@ document.addEventListener("DOMContentLoaded", function() {
               patternValue.innerHTML = this.dataset['patternPrice'];
             }
 
+            updateSum();
+
           })
         });
 
@@ -133,11 +135,16 @@ document.addEventListener("DOMContentLoaded", function() {
         var transportValue = document.querySelector('.transportValue')
 
         checkbox.addEventListener('click', function(){
-          console.log(this.checked);
           if(this.checked) {
             transport.innerHTML = "Transport";
             transportValue.innerHTML = this.dataset['transportPrice'];
+          } else {
+            transport.innerHTML = '';
+            transportValue.innerHTML = '';
           }
+
+          updateSum();
+
         });
 
 
@@ -145,7 +152,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
         var totalPrice = 0;
 
-        
+        function updateSum(){
+          var chairPrice = Number(chairValue.innerHTML);
+          var colorPrice = Number(colorValue.innerHTML);
+          var patternPrice = Number(patternValue.innerHTML);
+          var transportPrice = Number(transportValue.innerHTML);
+
+          sum.innerHTML = chairPrice + colorPrice + patternPrice + transportPrice;
+        }
+
+
 
 
 
